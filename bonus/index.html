@@ -10,15 +10,13 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="row justify-content-center align-items-center gap-3 p-3">
-                <div class="col-12 text-center">
+        <div class="container p-3">
+            <div class="top-space d-flex flex-column align-items-center row-gap-3 py-2">
+                <div>
                     <h1 class="mb-0 text-uppercase fw-bold">Campo Minato <span><i class="fa-solid fa-land-mine-on"></i></span></h1>
                 </div>
-                <div class="col-auto">
+                <div class="d-flex align-items-center gap-3">
                     <button type="button" id="btn-play" class="btn btn-success btn-sm fw-semibold">Gioca</button>
-                </div>
-                <div class="col-auto">
                     <select name="difficulty" id="difficulty" class="form-select form-select-sm">
                         <option value="1">Difficile</option>
                         <option value="2">Medio</option>
@@ -30,8 +28,8 @@
     </header>
 
     <section>
-        <div class="container">
-            <div class="grid d-flex flex-wrap mx-auto p-3"></div>
+        <div class="container pb-3 px-3 pt-1">
+            <div class="grid d-flex flex-wrap mx-auto"></div>
         </div>
     </section>
     
